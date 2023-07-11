@@ -1,0 +1,134 @@
+* {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;            margin: 0;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            margin-top: -30px;
+        }
+        
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: #f2f2f2;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        
+        .form-group input[type="text"],
+        .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        
+        .form-group input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            width: 100%;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.7s;
+        }
+        
+        .form-group input[type="submit"]:hover {
+            background-color: #77fd7e;
+            color: #000;
+        }
+
+        .footer{
+            margin-top: 20px;
+            font-size: 10px;
+        }
+
+        .footer a{
+            text-decoration: none;
+            color: blue;
+            transition: .7s;
+        }
+
+        .footer a:hover{
+            color: red;
+            
+        }
+
+        /*------Profile Card------*/
+        .members{
+            max-width:1500px ;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-bottom: 400px;
+            gap: 50px;
+            text-align: center;
+            transition: .7s;
+        }
+/*
+        .members:hover{
+            box-shadow: 10px 10px 5px #aaaaaa;
+        }
+*/
+        .members .profile-card{
+            background-color: #f2f2f2;
+            border-radius: 10px;
+            padding: 30px;
+            width: 600px;
+            height: 330px;
+            transition: .7s;
+        }
+
+        .members .profile-card:hover{
+            background-color: #558de6;
+            box-shadow: 10px 10px 5px #aaaaaa;
+            color: #fff;
+        }
+
+        .members img{
+            width: 150px;
+            height: 200px;
+            border-radius: 10px;
+        }
+        
+        h2{
+            text-align: center;
+            font-size: 50px;
+        }
+
+@media screen and (max-width: 840px){
+          .members{
+            display: inline;
+            padding: 10px;
+            gap: 50px;
+          }
+
+          .members .profile-card{
+            width: 350px;
+            height: 400px;
+          }
+
+        }
+        
